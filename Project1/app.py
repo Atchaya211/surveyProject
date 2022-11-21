@@ -21,11 +21,12 @@ def home():
     error = None
     return render_template('home.html', error=error)
 
-
-
-
-
+@app.route("/input", methods=['get','post'])
+def input():
+    error = None
+    return render_template('input.html', error=error)
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+
