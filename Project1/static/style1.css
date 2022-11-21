@@ -72,11 +72,11 @@ li {
   top:300px;
   color: aliceblue;
 }
-.btn{
+#btn{
   background-color: #ff416c;
-  position:fixed;
-  top:70vh;
-  left: 50vw;
+  position:relative;
+  top:80px;
+  left:40vw;
   /* left:50%; */
   vertical-align: middle;
   /* transform: translate(-50%,-50%); */
